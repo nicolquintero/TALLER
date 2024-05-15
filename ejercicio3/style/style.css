@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    text-decoration: none;
+  }
+
+
+.div{
+    height: 90px;
+    width: 100%;
+    background-color:rgb(32, 32, 32);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+a{
+    color: white;
+}
+
+
+.a{
+    height:5px;
+    width: 100%;
+    background-color: #2dceff;;    
+}
+
+
+h2{
+    
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+}
+
+.e div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    background-image: url(../assets/img/cabecera.jpg);
+    height: 65vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    margin:15px;   
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-30%,-10%);
+    color: white;
+    align-items: center;  
+}
+
+.e{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(15, 14, 14);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border: none; 
+    align-items: center;
+}
+
+button{
+    border: none;
+    width: 95px;
+    height: 40px;
+    background-color: #d84011;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+
+.img4{
+    width: 200px;
+}
+
+section .logo h4 {
+    width: 70%;
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+
+span:not(h1){
+    color: #2dceff;;
+}
+
+.dm{
+    color: white;
+}
+
+.footer{
+        height: 100px;
+        width: 100%;
+        background-color: #2dceff;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: white;  
+}
+
+
+/* NOSOTROS */
+
+.p{
+    color: black;
+    transform: translate(-50%,-30%);
+}
+
+
+.nosotros{
+    color:black;
+    position: relative;
+    left: 155px
+    
+}
+
+.cas{
+    height: 180px;
+    width: 750px;
+    margin:150px auto;
+    background-color:#1d1c2c;
+    position: relative;
+    left: 101px
+}
+
+.cas2{
+    height: 180px;
+    width: 300px;
+    margin:-429px auto;
+    background-color:#1d1c2c;
+    position: relative;
+    right:  50px;
+}
+ 
+.img2{
+    height: 250px;
+    text-align: center;
+    width: 750px;
+    display: flex;
+    transform: translate(20%,210%);
+}
+
+
+.footern{
+    height: 100px;
+    width: 100%;
+    background-color: #2dceff;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;  
+    transform: translate(0%,600%);
+}
+
+
+/* SERVICIOS */
+
+
+ 
+.cas1 {
+    height: 190px;
+    width: 650px;
+    margin:20px auto;
+    background-color:#cac9c9;
+    position: relative;
+    left: 20px;
+    color: black;
+    transform: translate(-30%,-10%);
+    
+}
+
+.cas3{
+    height: 180px;
+    width: 300px;
+    margin:-429px auto;
+    background-color:#1d1c2c;
+    position: relative;
+    right:  50px;
+}
+
+
+main p {
+    color: black;
+}
+
+.footers{
+    height: 100px;
+    width: 100%;
+    background-color: #2dceff;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;  
+    transform: translate(0%,1100%);
+}
+
+
+
+/* CONTACTO  */
+
+
+gap-2 {
+    gap: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 12px;
+    width: 850px;
+}
+
+.cerca {
+    justify-content: center;
+}
+
+
+.form {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.imag {
+    width: 100%;
+}
+
+.imag img {
+    width:  100%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 300px;
+    align-items: center;
+}
+
+.boton {
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(253, 94, 36);
+    display: block;
+}
+
+.footern{
+    height: 100px;
+    width: 100%;
+    background-color: #2dceff;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;  
+    transform: translate(0%,50%);
+}
+
+.cas5{
+    height: 180px;
+    width: 300px;
+    margin:-429px auto;
+    background-color:#1d1c2c;
+    position: relative;
+    right:  50px;
+}
+
+
+
+
+
+
+
+
